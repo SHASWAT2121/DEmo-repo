@@ -1,11 +1,13 @@
-# Top Module - SystemVerilog Project
+SISO Shift Register - SystemVerilog Project
 
-## 🧩 Overview
-This project implements a simple **SystemVerilog design** named `top_module` that demonstrates **signal mapping and bit extraction** from a 3-bit input vector.
+🧩 Overview
+This project implements a **Serial-In Serial-Out (SISO) Shift Register** using **SystemVerilog**.  
+A SISO register accepts serial input data on each clock cycle and shifts it through internal flip-flops, producing a serial output.  
+This design demonstrates **sequential logic**, **flip-flop behavior**, and **clock-driven data movement** — fundamental concepts in digital design.
 
-The design uses continuous assignments to connect input bits to individual output signals and a grouped output vector.  
-It’s a great starting point for understanding **port mapping**, **bit-level operations**, and **testbench structure** in Verilog/SystemVerilog.
+📁 Project Structure
+├── siso.sv # Main SystemVerilog design file
+├── tb_siso.sv # Testbench for simulation
+└── README.md # Project documentation
 
----
 
-## 📁 Project Structure
